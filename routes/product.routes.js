@@ -18,7 +18,7 @@ router.post("/create", (req, res, next) => {
 
 /* GET Display single product page */
 router.get("/:productId", (req, res, next) => {
- 
+    res.render('pages/singleProduct')
 });
 
 module.exports = router;
